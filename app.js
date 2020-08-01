@@ -30,7 +30,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // TODO: Tambahkan definisi path untuk API agar API dapat diakses dengan 
 // path `/library`
-app.use('https://shrouded-bastion-80220.herokuapp.com/library', routes);
+app.use('https://intense-spire-19896.herokuapp.com/library', routes);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
